@@ -18,7 +18,6 @@
 
 <script setup>
   const { data } = await useFetch("/api/currency/USD");
-  console.log(data);
 </script>
 
 <style scoped>
